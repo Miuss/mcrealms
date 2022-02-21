@@ -1,0 +1,9 @@
+name: Realms
+version: '${project.version}'
+main: cn.mcrealms.realms.Main
+api-version: 1.18
+commands:
+  realm:
+  home:
+
+depend: [WorldEdit]

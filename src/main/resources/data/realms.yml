@@ -1,0 +1,5 @@
+realms:
+  GenesisMiuss:
+    type: world
+  Box:
+    type: world

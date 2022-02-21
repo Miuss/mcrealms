@@ -1,0 +1,12 @@
+themes:
+  basic:
+    path: basictheme.schematic
+    permission: realm.theme.other
+    item:
+      name: '&eBasic Theme'
+      material: GRASS
+      durability: 1
+      lore:
+        - '§7The theme of the basic island'
+config:
+  spacing: 500
