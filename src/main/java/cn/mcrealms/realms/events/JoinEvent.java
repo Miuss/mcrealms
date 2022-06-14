@@ -10,6 +10,10 @@ import org.bukkit.event.player.PlayerJoinEvent;
 
 public class JoinEvent implements Listener {
 
+    /**
+     * 玩家事件监听器
+     * @param e
+     */
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e){
 

@@ -12,6 +12,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.UUID;
 
+/**
+ * 领域世界主题模板
+ */
 public class Theme {
 
     private ThemeType themeType;

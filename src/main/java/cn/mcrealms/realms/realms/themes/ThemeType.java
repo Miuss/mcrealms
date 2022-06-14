@@ -8,8 +8,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * 领域世界主题模板类型
+ */
 public class ThemeType {
-
     private String schematic;   //schematic path
     private String name;    //Thme Name
     List<String> lore;  //GUI des

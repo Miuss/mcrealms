@@ -8,6 +8,14 @@ import org.bukkit.entity.Player;
 
 public class Home implements CommandExecutor {
 
+    /**
+     * 玩家默认指令
+     * @param sender
+     * @param command
+     * @param label
+     * @param args
+     * @return
+     */
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 

@@ -13,6 +13,9 @@ import javax.security.auth.callback.Callback;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ *  Schematic模板文件工具类
+ */
 public class SchematicUtils {
     private Location location;
     private File file;

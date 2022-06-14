@@ -3,6 +3,9 @@ package cn.mcrealms.realms.realms;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+/**
+ * 领域人员管理（后期实体和实体工具类分开）
+ */
 public class RealmPlayer {
     public static HashMap<String, RealmPlayer> realmPlayer = new HashMap<>();
     public static HashMap<String, RealmPlayer> realmPlayername = new HashMap<>();

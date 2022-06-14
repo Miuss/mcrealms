@@ -11,6 +11,9 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 领域世界主题模板文件配置管理
+ */
 public class ThemeConfig {
 
     private File file = new File(Main.getInstance().getDataFolder(), "config.yml");

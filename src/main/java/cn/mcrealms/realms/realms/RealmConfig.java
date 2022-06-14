@@ -13,6 +13,9 @@ import org.bukkit.entity.Player;
 import java.io.File;
 import java.util.ArrayList;
 
+/**
+ * 领域配置文件管理（后面改为mysql存储配置数据）
+ */
 public class RealmConfig {
     private File file = new File(Main.getInstance().getDataFolder(), "data/realms.yml");
     private FileConfiguration config = YamlConfiguration.loadConfiguration(file);

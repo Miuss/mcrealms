@@ -9,12 +9,33 @@ import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import java.util.ArrayList;
 
+/**
+ * Realms Entity
+ */
 public class Realm {
+    /**
+     * 领域集合
+     */
     public static ArrayList<Realm> allrealm = new ArrayList<>();
+    /**
+     * 私人模式（领域世界是否禁止非领域玩家访问）
+     */
     private boolean privacy;
+    /**
+     * 领域数据
+     */
     private Theme theme;
+    /**
+     * 领域人员列表
+     */
     private ArrayList<RealmPlayer> realmmembers = new ArrayList<>();
+    /**
+     * 领域拉黑人员列表
+     */
     private ArrayList<RealmPlayer> banned = new ArrayList<>();
+    /**
+     * 领域拥有者
+     */
     private RealmPlayer owner;
 
     public Realm(RealmPlayer rp, ThemeType theme) {

@@ -12,6 +12,9 @@ import org.bukkit.entity.Player;
 
 import java.io.File;
 
+/**
+ * 生成领域世界工具类
+ */
 public class RealmGenerator {
 
     public World createWorld(Player player, String schematic) {

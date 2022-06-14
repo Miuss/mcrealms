@@ -15,6 +15,9 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.Arrays;
 
+/**
+ * 配置文件管理工具类
+ */
 public class ConfigFiles {
 
     private void checkFolder() {

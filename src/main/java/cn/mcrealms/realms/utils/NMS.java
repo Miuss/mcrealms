@@ -7,6 +7,9 @@ import org.bukkit.craftbukkit.v1_18_R1.CraftWorld;
 import org.bukkit.craftbukkit.v1_18_R1.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 
+/**
+ * NMS反射
+ */
 public class NMS {
 
     public void sendWorldBorder(Player player, BorderColor color, double size, Location centerLocation) {

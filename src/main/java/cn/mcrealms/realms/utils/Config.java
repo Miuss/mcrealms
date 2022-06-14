@@ -10,6 +10,9 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 配置文件枚举类
+ */
 public enum Config {
     CONFIG(Main.getInstance().getDataFolder(),"config.yml",true),
     REALM(Main.getInstance().getDataFolder(),"data/realms.yml",false);

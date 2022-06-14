@@ -11,6 +11,14 @@ import org.bukkit.entity.Player;
 
 public class RealmCommand implements CommandExecutor {
 
+    /**
+     * 玩家领域管理指令
+     * @param sender
+     * @param command
+     * @param label
+     * @param args
+     * @return
+     */
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
