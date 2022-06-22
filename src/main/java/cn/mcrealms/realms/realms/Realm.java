@@ -22,7 +22,7 @@ public class Realm {
      */
     private boolean privacy;
     /**
-     * 领域数据
+     * 领域主题数据（地图模板）
      */
     private Theme theme;
     /**
